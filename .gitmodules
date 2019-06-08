@@ -1,0 +1,3 @@
+[submodule "slides/assets"]
+	path = slides/assets
+	url = git@github.com:huge-success/sanic-assets.git
