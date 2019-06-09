@@ -219,6 +219,16 @@ blockquote {
 // Custom Styles
 
 .star {
-  margin: -3px 50px -10px 0;
+  margin: -3px 20px -10px 0;
   float: right;
+}
+
+.pull-right {
+  margin: -3px 75px -10px 0;
+  float: right;
+}
+
+.small {
+  width: 50%;
+  height: 50%;
 }
