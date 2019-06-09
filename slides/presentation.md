@@ -170,9 +170,39 @@ Hello, World!
 
 ---
 
-class: middle 
-
 # May the DEMO Gods be with US
+
+--
+
+.col-6[
+  .row-6[
+    ## Creating project from Template
+
+  - Using `cookiecutter-sanic`
+  ]  
+
+  .row-6[
+    ## Testing and Deploying
+
+  - Using `docker`
+
+  - Using `minikube`
+
+  - TBD
+  ]
+  
+]
+--
+
+.col-6[
+  ## Monitoring
+
+  - `sentry`
+
+  - `jaeger`
+
+  - TBD
+]
 
 
 ---
@@ -198,7 +228,7 @@ class: middle
   - `requests-async` based test client
   
   - Pluggable `json` handlers
-  
+
   - TBD
 ]
 --

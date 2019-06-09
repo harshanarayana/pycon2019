@@ -183,6 +183,20 @@ blockquote {
   .col-#{$i} {width: 100% / 12 * $i; }
 }
 
+@for $i from 1 through 12 {
+  .row-#{$i} {
+    height: 100% / 12 * $i;
+    padding: 10px;
+  }
+}
+
+@for $i from 1 through 12 {
+  .col-#{$i}-middle {
+    width: 100% / 12 * $i; 
+    display: block; height: 100%; text-align:center; line-height:300%;
+  }
+}
+
 // Animations
 @keyframes fadeIn {
   from { opacity: 0; }
