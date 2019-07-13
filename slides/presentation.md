@@ -55,19 +55,34 @@ class: middle
 
   - Speed
 
-  - Supports all versions of Python starting 3.5+
+  - Supports all versions of Python starting 3.6+
 
   - Support for both `WSGI` and `ASGI` specs
 
   - Built in Test client and `pytest` plugin
 
-  - LTS based release strategy to ensure non breaking changes and support for security fixes and features
+  - Out of the box support for `websockets`
+ 
 ]
---
-
 
 .col-6[
   
+  ## Features
+
+  - LTS based release strategy to ensure non breaking changes and support for security fixes and features
+
+  - Easy and simple API to hook into which makes creating plugins a cakewalk.
+
+]
+
+---
+
+# Why SANIC ? contd...
+
+--
+
+.col-6[
+
   ## Community
 
   - Quick release cycle with new features and bug fixes
@@ -77,9 +92,16 @@ class: middle
   - Incredibly friendly and welcoming developer community
 
   - Wide range of extensions and utility support
+]
+--
+
+
+.col-6[
+  
 
 ]
 --
+
 
 ---
 
@@ -228,6 +250,8 @@ Hello, World!
   - `requests-async` based test client
   
   - Pluggable `json` handlers
+
+  - `signals` support
 
   - TBD
 ]
